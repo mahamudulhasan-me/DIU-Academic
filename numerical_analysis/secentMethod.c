@@ -1,9 +1,6 @@
 #include <stdio.h>
 #include <math.h>
 
-
-#define EPSILON 0.0001
-
 double func(double x) {
     return x * x * x - x - 1; //
 }
